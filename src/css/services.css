@@ -1,5 +1,123 @@
-#appServices{
-    height: 100vh;
-    background-color: var(--primary-color);
+#appServices {
+    background-color: var(--bg-gray);
+    padding: 100px 0px;
+}
+
+#appServices .services-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#appServices .services-title h6 {
+    color: var(--text-color-2);
+    margin-bottom: 35px;
+    font-weight: 600;
+    letter-spacing: 2.91px;
+}
+
+#appServices .services-title h3 {
+    color: var(--text-color-1);
+    font-size: 35px;
+}
+
+#appServices .servive-card-container {
+    display: flex;
+    gap: 45px;
+}
+
+#appServices .servive-card-container .servive-card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.03);
 
 }
+
+#appServices .servive-card-container .servive-card .service-card-icon {
+    background-color: var(--blue-one);
+    border-radius: 9999px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(4px 10px 30px rgba(67, 97, 238, 0.40));
+
+}
+
+#appServices .servive-card-container .servive-card .service-card-description {
+    text-align: center;
+}
+
+#appServices .servive-card-container .servive-card .service-card-description h6 {
+    color: var(--text-color-2);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#appServices .servive-card-container .servive-card .service-card-description p {
+    color: var(--text-color-3);
+}
+
+@media (max-width: 426px) {
+    #appServices .services-title h3 {
+        font-size: 20px !important;
+        background-color: red;
+
+    }
+
+    #appServices .servive-card-container .servive-card {
+        padding: 50px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+    #appServices .services-title h3 {
+        font-size: 25px;
+    }
+
+    #appServices .servive-card-container {
+       flex-direction: column;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #appServices .servive-card-container .servive-card {
+        padding: 40px;
+    }
+}
+
+
+
+/* Medium devices (tablets, less than 992px)  */
+/*@media (max-width: 991.98px) {  } 
+   /*Large devices (desktops, less than 1200px)  
+@media (max-width: 1199.98px){
+
+}*/
+
+
+/* @media (max-width: 426px) {
+    mobile
+}
+
+@media (max-width: 768px) {
+
+   tablet
+
+}
+
+@media (max-width: 992px) {
+   un peu en dessous de laptop
+}
+
+*/

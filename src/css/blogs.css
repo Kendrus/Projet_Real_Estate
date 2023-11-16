@@ -1,0 +1,91 @@
+
+#appBlogs{
+background-color: var( --primary-color);
+    padding: 100px 0px;
+
+}
+
+#appBlogs .blogs-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#appBlogs .blogs-title h6 {
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 600;
+    letter-spacing: 2.91px;
+}
+
+#appBlogs .blogs-title h3 {
+    color: white;
+    font-size: 35px;
+}
+
+#appBlogs .blogs-card-container{
+
+}
+
+#appBlogs .blogs-card-container .blogs-card {
+
+}
+
+#appBlogs .blogs-card-container .blogs-card .blogs-card-image{
+
+}
+#appBlogs .blogs-card-container .blogs-card .blogs-card-description h5{
+color: white;
+font-size: 25px;
+font-weight:500;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#appBlogs .blogs-card-container .blogs-card .blogs-card-description p{
+    color:var(--text-color-5);
+    font-size: 16px;
+    font-weight: 400;
+}
+#appBlogs .blogs-card-container .blogs-card  .blogs-btn-holder{
+   background-color: white; 
+   border-radius: 9999px;
+   padding: 10px;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 426px) {
+    /* mobile */
+}
+
+@media (max-width: 768px) {
+
+   /* tablet */
+
+}
+
+@media (max-width: 992px) {
+   /* un peu en dessous de laptop */
+}
+
