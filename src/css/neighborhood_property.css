@@ -1,0 +1,178 @@
+/* #Neighborhood_property */
+#Neighborhood_property {
+    padding-top: 60px;
+}
+
+#Neighborhood_property .Neighborhood_property_title {
+    /* margin-left: 25px; */
+}
+
+#Neighborhood_property .Neighborhood_property_title h6 {
+
+    color: #4361EE;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+
+#Neighborhood_property .Neighborhood_property_title h4 {
+    color: var(--text-color-2);
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#Neighborhood_property .Neighborhood_property_container {
+    /* display: flex;
+    justify-content: center;
+    padding-top: 20px; */
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* padding-top: 20px; */
+    margin: 50px 0;
+    gap: 35px;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    border-radius: 30px;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img._one {
+    background-image: url("../assets/images/PN1.png");
+    grid-column-end: span 3;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img._two {
+    background-image: url("../assets/images/PN2.png");
+    grid-column-end: span 3;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img._tree {
+    background-image: url("../assets/images/PN3.png");
+    grid-column-end: span 6;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img._four {
+    background-image: url("../assets/images/pn4.png");
+    grid-column-end: span 5;
+}
+
+#Neighborhood_property .Neighborhood_property_container .Neighborhood_img._five {
+    background-image: url("../assets/images/pn5.png");
+    grid-column-end: span 7;
+}
+
+#Neighborhood_property .Neighborhood_property_container .box_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 30px;
+}
+
+#Neighborhood_property .Neighborhood_property_container .box_text span {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    opacity: 0.6;
+    text-shadow: 2px 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+#Neighborhood_property .Neighborhood_property_container .box_text p {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width: 426px) {
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._one {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._two {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._tree {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._four {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._five {
+        grid-column-end: span 6;
+    }
+
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img {
+        min-height: 155px;
+        min-width: 145px;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container {
+        gap: 10px;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .box_text {
+        padding: 15px;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .box_text span{
+        font-size: 20px;
+    }
+    
+    #Neighborhood_property .Neighborhood_property_container .box_text p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* tablet */
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._one {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._two {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._tree {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._four {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .Neighborhood_img._five {
+        grid-column-end: span 6;
+    }
+
+    #Neighborhood_property .Neighborhood_property_container .box_text p {
+        font-size: 20px;
+    }
+    
+    #Neighborhood_property .Neighborhood_property_container .box_text span {
+        font-size: 25px;
+    }
+    
+
+}
+
+@media (max-width: 992px) {
+    /* un peu en dessous de laptop */
+}

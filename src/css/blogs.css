@@ -1,6 +1,5 @@
-
-#appBlogs{
-background-color: var( --primary-color);
+#appBlogs {
+    background-color: var(--primary-color);
     padding: 100px 0px;
 
 }
@@ -9,6 +8,7 @@ background-color: var( --primary-color);
     text-align: center;
     margin-bottom: 45px;
 }
+
 #appBlogs .blogs-title h6 {
     color: white;
     margin-bottom: 35px;
@@ -20,170 +20,72 @@ background-color: var( --primary-color);
     color: white;
     font-size: 35px;
 }
-#appBlogs .blogs-card-container{
-display: flex;
+
+#appBlogs .blogs-card-container {
+    display: flex;
+    gap: 15px;
 }
 
-#appBlogs .blogs-card-container .blogs-card {
-padding: 20px;
-/* gap: 20px; */
+#appBlogs .blogs-card-container .blogs-card {}
+
+#appBlogs .blogs-card-container .blogs-card .blogs-card-image img {
+
+    border-radius: 30px;
 }
 
-#appBlogs .blogs-card-container .blogs-card .blogs-card-image img{
-
-border-radius: 30px;
-}
-#appBlogs .blogs-card-container .blogs-card .blogs-card-description h5{
-color: white;
-font-size: 25px;
-font-weight:500;
-margin-top: 10px;
-margin-bottom: 10px;
+#appBlogs .blogs-card-container .blogs-card .blogs-card-description h5 {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#appBlogs .blogs-card-container .blogs-card .blogs-card-description p{
-    color:var(--text-color-5);
+#appBlogs .blogs-card-container .blogs-card .blogs-card-description p {
+    color: var(--text-color-5);
     font-size: 16px;
     font-weight: 400;
 }
-#appBlogs .blogs-card-container .blogs-card  .blogs-btn-holder{
-   background-color: white; 
-   border-radius: 9999px;
-   padding: 10px;
-   width: 50px;
-   height: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 220px;
+
+#appBlogs .blogs-card-container .blogs-card .blogs-card-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
 }
 
-
-
-
-/* bloc expert */
-#Expert{
-    padding-top: 60px;
-}
-
-
-#Expert .Bloc_Expert{
+#appBlogs .blogs-card-container .blogs-card .blogs-btn-holder {
+    background-color: white;
+    border-radius: 9999px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
-} 
-#Expert .bloc_Expert_title h6{
-color: #4361EE;
-text-align: center;
-font-weight: 500;
-font-size: 15px;
-}
-
-#Expert .bloc_Expert_title h2{
-    color: var(--text-color-2);
-    text-align: center;
-    font-weight: 600;
-    font-family: Poppins;
-    font-size: 37px;
-    
-}
-
-#Expert .Bloc_Expert  .Expert_img  img{
-  padding: 30px;
-    }
-    
-#Expert  .bloc_contain_Expert  .bloc_Expert_description  h5{
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 20px;
-    }
-
-#Expert  .bloc_contain_Expert  .bloc_Expert_description  h6{
-    text-align: center;
-    font-size: 12px;
-    font-family: Poppins;
-    padding-top: 10px;
-}
-
-
-
-#Neighborhood_property{
-    padding-top: 60px;
-}
-#Neighborhood_property .Neighborhood_property_title{
-margin-left: 50px;
-}
-
-#Neighborhood_property .Neighborhood_property_title h6{
-
-color: #4361EE;
-letter-spacing: 2px;
-font-size: 16px;
-margin-bottom: 10px;
-font-weight: 400;
-
-}      
-#Neighborhood_property .Neighborhood_property_title h4{
-    color:var(--text-color-2);
-    font-size: 28px;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
-#Neighborhood_property .Neighborhood_property_img_one{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    
-}
-
-#Neighborhood_property .Neighborhood_property_img_one .div1{
-    height: 300px;
-    width: 320px;
-}
-
-#Neighborhood_property .Neighborhood_property_img_one .div2
-{
-    height: 300px;
-    width: 420px;
-}
-
-#Neighborhood_property .Neighborhood_property_img_two{
-    display: flex;
-    justify-content: center;
-}
-
-
-#Neighborhood_property .Neighborhood_property_img_two .div3{
-    width:412px ;
-    height:320px ;
+    align-items: center;
 
 }
-
-#Neighborhood_property .Neighborhood_property_img_two .div4{
-    width:658px ;
-    height:320px ;
-
-}
-
-
-
-
-
-
 
 
 
 @media (max-width: 426px) {
-    /* mobile */
+    #appBlogs .blogs-card-container {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
 
-   /* tablet */
+    /* tablet */
 
+    #appBlogs .blogs-card-container {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 992px) {
-   /* un peu en dessous de laptop */
-}
 
+    /* un peu en dessous de laptop */
+    #appBlogs .blogs-card-container {
+        flex-wrap: wrap;
+    }
+}

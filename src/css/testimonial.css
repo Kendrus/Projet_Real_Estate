@@ -1,0 +1,64 @@
+/* testimonial */
+
+#blog_testimonial {
+    padding-top: 30px;
+}
+
+#blog_testimonial .blog_card_testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+#blog_testimonial .blog_card_testimonial .box1 .title h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-color-2);
+
+}
+
+#blog_testimonial .blog_card_testimonial .box1 .bloc_text p {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--text-color-2);
+
+}
+
+#blog_testimonial .blog_card_testimonial .box1 .testimonial_holder {
+    padding-top: 60px;
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .container_two {
+    padding: 10px 10px;
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .card_text {
+    width: 400px;
+    height: 258px;
+    border: 1px solid;
+    /* background-color: red; */
+    background-color: white;
+    margin-left: 130px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.10);
+    ;
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .card_text p {
+    text-align: center;
+    padding: 0px 25px;
+    padding-top: 50px;
+
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .card_text .line_card_text {
+    padding-top: 70px;
+    border-bottom: 1px solid var(--text-color-2);
+
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .card_text .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith img {
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+

@@ -1,5 +1,8 @@
 @import "./services.css";
 @import "./blogs.css";
+@import "./expert.css";
+@import "neighborhood_property.css";
+
 
 /* Partials */
 @import "./partials/colors.css";
