@@ -22,11 +22,17 @@
 }
 
 #appBlogs .blogs-card-container {
-    display: flex;
+    /* display: flex; */
+    display: grid;
     gap: 15px;
+    grid-template-columns: repeat(12,1fr);
+
 }
 
-#appBlogs .blogs-card-container .blogs-card {}
+
+#appBlogs .blogs-card-container .blogs-card{
+    grid-template-columns: span 4;
+}
 
 #appBlogs .blogs-card-container .blogs-card .blogs-card-image img {
 
@@ -64,12 +70,9 @@
     align-items: center;
 
 }
-
-
-
 @media (max-width: 426px) {
-    #appBlogs .blogs-card-container {
-        flex-direction: column;
+    #appBlogs .blogs-card-container .blogs-card{
+       grid-template-columns: span 6;
     }
 }
 

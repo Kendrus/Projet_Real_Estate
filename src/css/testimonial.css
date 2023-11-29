@@ -4,61 +4,167 @@
     padding-top: 30px;
 }
 
-#blog_testimonial .blog_card_testimonial {
+#blog_testimonial .blog_card_testimonial{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
 }
-
-#blog_testimonial .blog_card_testimonial .box1 .title h2 {
+#blog_testimonial .blog_card_testimonial .box1{
+    width: 50%;
+}
+#blog_testimonial .blog_card_testimonial .box1 .Title_testimonial p{
+    color: var(--blue-one);
+    padding-bottom: 10px;
+}
+#blog_testimonial .blog_card_testimonial .box1 .title h2{
     font-size: 28px;
     font-weight: 600;
     color: var(--text-color-2);
-
+}
+#blog_testimonial .blog_card_testimonial .box1 .bloc_text {
+    padding-top: 15px;
 }
 
 #blog_testimonial .blog_card_testimonial .box1 .bloc_text p {
-    font-size: 11px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--text-color-2);
-
+    
 }
 
 #blog_testimonial .blog_card_testimonial .box1 .testimonial_holder {
     padding-top: 60px;
+    
+}
+#blog_testimonial .blog_card_testimonial .box1 .testimonial_holder .right{
+    margin-right: 20px; 
 }
 
+#blog_testimonial .blog_card_testimonial .box1 .testimonial_holder .left{
+    margin-left: 20px; 
+}
+#blog_testimonial .blog_card_testimonial .box2 {
+    width: 50%;
+}
 #blog_testimonial .blog_card_testimonial .box2 .container_two {
     padding: 10px 10px;
-}
-
-#blog_testimonial .blog_card_testimonial .box2 .card_text {
+    display:flex;
+    flex-direction: column;
     width: 400px;
     height: 258px;
-    border: 1px solid;
-    /* background-color: red; */
     background-color: white;
-    margin-left: 130px;
+     margin-left: 130px; 
     border-radius: 30px;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.10);
-    ;
+    justify-content: space-between; 
 }
 
 #blog_testimonial .blog_card_testimonial .box2 .card_text p {
-    text-align: center;
-    padding: 0px 25px;
-    padding-top: 50px;
+   
+    padding-top: 25px;
+}
+#blog_testimonial  .box2 .line_card_text {
+    padding-top: 30px;
+    border-bottom: 1px solid var(--text-color-6);
+    width: 300px;
+    height: 1px;
+    margin-left: 30px;
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith{
+    display: flex;
+     justify-content: space-between; 
+    
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith {
+   display:flex;
+   justify-content: space-between;
+
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith .imageAndText{
+    display:flex;
+   justify-content: space-between;
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith .Badara_name{
+    display:flex ;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith .sky{
+    display:flex ;
+    align-items: center;
+}
+/* #blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smit img{
+    grid-column-end: span 2;
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smit p{
+    grid-column-end: span 6;
+}
+#blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smit .sky{
+    grid-column-end: span 4;
+}
+#blog_testimonial .blog_card_testimonial .box1 .bloc_text{
+    margin-top: 10px;
+} */
+
+
+
+@media (max-width: 426px) {
+    #blog_testimonial .blog_card_testimonial{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    /* #blog_testimonial .blog_card_testimonial .box1{
+    width: 30%;
+    }
+    #blog_testimonial .blog_card_testimonial .box2{
+        width: 30%;
+        } */
+    
+
+    #blog_testimonial .blog_card_testimonial .box1 .testimonial_holder{
+        display: none;
+    }
+
+    #blog_testimonial .blog_card_testimonial .box2 .container_two {
+        margin-top: 60px;
+        margin-left: 30px;
+       
+    }
+    /* #blog_testimonial .blog_card_testimonial .box1 .Title_testimonial p{
+        text-align: center;
+    }
+    #blog_testimonial .blog_card_testimonial .box1 .title h2{
+        text-align: center;
+    }
+    #blog_testimonial .blog_card_testimonial .box1 .bloc_text p{
+        
+    } */
+}
+
+@media (max-width: 768px) {
+
+    /* tablet */
+    #blog_testimonial .blog_card_testimonial{
+        flex-wrap: wrap;
+    }
+    #blog_testimonial .blog_card_testimonial .box1 .testimonial_holder{
+        display: none;
+    }
+
+    #blog_testimonial .blog_card_testimonial .box2 .container_two {
+        margin-top: 60px;
+        width: 330px;
+        /* height: 350px;
+        margin-left: 40px; */
+    }
+
+   
 
 }
 
-#blog_testimonial .blog_card_testimonial .box2 .card_text .line_card_text {
-    padding-top: 70px;
-    border-bottom: 1px solid var(--text-color-2);
+@media (max-width: 992px){
+
+ 
+
 
 }
-
-#blog_testimonial .blog_card_testimonial .box2 .card_text .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith img {
-    padding: 5px;
-    margin-bottom: 20px;
-
-}
-

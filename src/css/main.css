@@ -2,8 +2,11 @@
 @import "./blogs.css";
 @import "./expert.css";
 @import "neighborhood_property.css";
-
-
+@import "testimonial.css";
+@import "become_a_dirigeant.css";
+@import "navbar-top.css";
+@import "first_footer.css";
+@import "acceuil.css";
 /* Partials */
 @import "./partials/colors.css";
 @import "../assets/fonts/fonts.css";

@@ -1,0 +1,57 @@
+#acceuil .card_reception{
+    background-image:url("../assets/images/background.png");
+       
+}
+
+#acceuil  .card_reception .navbar_acceuil
+{
+    
+}
+#acceuil  .card_reception .navbar_acceuil .left_bloc_navbar {
+    display: flex;
+    justify-content: left;
+}
+#acceuil  .card_reception .navbar_acceuil .rigth_bloc_navbar {
+    display: flex;
+    justify-content: right;
+   
+}
+#acceuil  .card_reception .navbar_acceuil .left_bloc_navbar  p{
+    padding-left: 10px;
+}
+
+#acceuil  .card_reception .navbar_acceuil .center_rezilla .rezilla{
+ text-align: center;
+}
+#acceuil  .card_reception .navbar_acceuil .center_rezilla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#acceuil  .card_reception .navbar_acceuil .center_rezilla .icone_rezilla{
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+#acceuil  .card_reception  .bloc_one_acceuil {
+    margin-top: 50px;
+}
+
+
+
+
+
+@media (max-width: 426px) {
+   
+    }
+
+@media (max-width: 768px) {
+
+    /* tablet */
+}
+
+@media (max-width: 992px){
+}

@@ -1,0 +1,43 @@
+#navbar-top .purple_navbar{
+    height: 40px;
+    /* width: 100vh; */
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+#navbar-top .purple_navbar .adress{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 40px;
+}
+#navbar-top .purple_navbar .adress p{
+    padding-left: 5px;
+}
+
+#navbar-top .purple_navbar .coord {
+    display: flex;
+    justify-content: end;
+}
+#navbar-top .purple_navbar .coord .coord_bloc{
+    display: flex;
+ align-items: center;
+}
+#navbar-top .purple_navbar .coord .coord_bloc .tel{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-right: 10px;
+}
+#navbar-top .purple_navbar .coord .cone_email{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#navbar-top .purple_navbar .coord .coord_bloc .email{
+    display: flex;
+  align-items: center;
+   
+    color: white;
+
+}

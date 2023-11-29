@@ -1,0 +1,115 @@
+#Become_a_Agent .card_rectangle {
+    /* width: 950px;
+  height: 180px; */
+    background-color: #3A0CA3;
+    /* text-align: center;  */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding: 20px 20px;
+    position: relative;
+
+}
+
+#Become_a_Agent .card_rectangle img {
+    /* width:200px;
+    height:200px; */
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+
+
+}
+
+#Become_a_Agent .card_rectangle .description {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+#Become_a_Agent .card_rectangle .button_agent {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+#Become_a_Agent .card_rectangle .button_agent p {
+    color: #3A0CA3;
+}
+
+#Become_a_Agent .card_rectangle .button_agent button {
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px 25px;
+    text-align: center;
+    /* order: 3; */
+}
+
+#Become_a_Agent .card_rectangle .description {
+    /* padding: 40px  0; */
+}
+
+#Become_a_Agent .card_rectangle .description h2 {
+    color: white;
+}
+
+#Become_a_Agent .card_rectangle .description h6 {
+    color: white;
+}
+
+
+@media (max-width: 426px) {
+    #Become_a_Agent .card_rectangle {
+        /* width: 331px;
+        height: 351px; */
+        flex-direction: column-reverse;
+
+
+    }
+
+    #Become_a_Agent .card_rectangle  .circle {
+        right: 10px;
+        top: 0;
+        border-radius: 9999px;
+        padding: 15px;
+        background-color: white;
+        opacity: 0.5;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+
+    }
+
+    #Become_a_Agent .card_rectangle img {
+        order: 1;
+        margin-bottom: -25px;
+        padding: 10px 10px;
+    }
+
+    #Become_a_Agent .card_rectangle .button_agent {
+        order: 2;
+        justify-content: left;
+
+    }
+
+    #Become_a_Agent .card_rectangle .description {
+        order: 3;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* tablet */
+
+
+
+}
+
+@media (max-width: 992px) {
+
+    /* un peu en dessous de laptop */
+
+}
