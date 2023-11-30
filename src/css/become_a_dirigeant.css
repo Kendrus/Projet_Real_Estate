@@ -11,18 +11,37 @@
     position: relative;
 
 }
+#Become_a_Agent  .card_rectangle  .circle2{
+    left: 74px;
+    top: 358px;
+    border-radius: 9999px;
+    padding: 15px;
+    background-color: white;
+    opacity: 0.35;
+    width: 50px;
+    height:50px;
+    position: absolute;
+}
+#Become_a_Agent .card_rectangle  .circle {
+    right: 10px;
+    top: -40px;
+    border-radius: 9999px;
+    padding: 15px;
+    background-color: white;
+    opacity:0.35;
+    width: 100px;
+    height:100px;
+    position: absolute;
 
+}
 #Become_a_Agent .card_rectangle img {
     /* width:200px;
     height:200px; */
-    margin-top: -40px;
+    margin-top:-40px;
     display: flex;
     justify-content: center;
-    margin-bottom: -20px;
-
-
+    margin-bottom:-20px;
 }
-
 #Become_a_Agent .card_rectangle .description {
     display: flex;
     align-items: center;
@@ -72,13 +91,13 @@
 
     #Become_a_Agent .card_rectangle  .circle {
         right: 10px;
-        top: 0;
+        top: -40px;
         border-radius: 9999px;
         padding: 15px;
         background-color: white;
         opacity: 0.5;
-        width: 45px;
-        height: 45px;
+        width: 100px;
+        height:100px;
         position: absolute;
 
     }
@@ -92,20 +111,27 @@
     #Become_a_Agent .card_rectangle .button_agent {
         order: 2;
         justify-content: left;
-
     }
-
     #Become_a_Agent .card_rectangle .description {
         order: 3;
     }
-}
 
+    #Become_a_Agent  .card_rectangle  .circle2{
+        left: 74px;
+        top: 358px;
+        border-radius: 9999px;
+        padding: 15px;
+        background-color: white;
+        opacity: 0.35;
+        width: 50px;
+        height:50px;
+        position: absolute;
+    }
+    
+}
 @media (max-width: 768px) {
 
     /* tablet */
-
-
-
 }
 
 @media (max-width: 992px) {
