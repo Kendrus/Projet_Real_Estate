@@ -1,4 +1,5 @@
 #first-foot .card_foot{
+    color: var(--text-color-2);
     margin-top: 60px;
     background-color: var(--bg-gray);
     /* height: 350px; */
@@ -15,41 +16,103 @@
 } */
 #first-foot .card_foot .column.one .text_Rezilla{
     display: flex;
-    align-items: flex-start;
-    
-   
+    align-items: center;
 }
 #first-foot .card_foot .column.one .text_Rezilla{
     text-align: center; 
+    margin-bottom: 20px;
 }
-#first-foot .card_foot .column.one .text_Rezilla  svg{
+#first-foot .card_foot .column.one .text_Rezilla  .icone_svg{
     display: flex;
-    align-items: center;
+    align-items: center; 
     background-color:var(--primary-color);
     border-radius: 9999px;
-    height: 40px;
-    width: 40px;
-    padding: 5px;
+    /* height: 40px;
+    width: 40px; */
+     padding: 5px; 
 }
 /* #first-foot .card_foot .column.one .text_Rezilla  p{
     display: flex;
     align-items: center;
 } */
-#first-foot .card_foot .column.one p{
+#first-foot .card_foot .column.one .rez{
+    margin-left: 10px;
+    font-weight: 600;
+    
+  
+}
+#first-foot .card_foot .column.one .tp{
+    margin-bottom: 15px;
+}
+
+#first-foot .card_foot .column.one  .tel_footer .tel{
+    margin-left: 10px;
+}
+
+#first-foot .card_foot .column.one  .tel_footer{
+      
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
 }
-#first-foot .card_foot .column.two p{
-    margin-bottom: 10px;
+#first-foot .card_foot .column.one  .email{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#first-foot .card_foot .column.one  .email .add_email{
+    margin-left: 10px;
+}
+
+#first-foot .card_foot .column.two .title_p{
+    font-weight: 600;
+    margin-bottom: 20px;
 
 }
-#first-foot .card_foot .column.tree p{
-    margin-bottom: 10px;
 
+#first-foot .card_foot .column.two .col_two .tp{
+    margin-bottom:10px;
 }
-#first-foot .card_foot .column.four p{
-    margin-bottom: 10px;
 
+#first-foot .card_foot .column.tree .title_p{
+    font-weight: 600;
+    margin-bottom: 20px;
 }
+
+#first-foot .card_foot .column.tree .col_tree .tp{
+    margin-bottom:10px;
+}
+
+
+#first-foot .card_foot .column.four  .col_four .title_p{
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#first-foot .card_foot .column.four  .col_four .input_footer{
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 15px;
+}
+
+#first-foot .card_foot .column.four  .col_four .tp{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 426px) {
 
@@ -68,7 +131,8 @@
         display: none;
        /* flex-wrap: wrap; */
     }
-
+  
+    
     #first-foot .card_foot .column.four .input_footer{
         padding:25px;
         border: 1px solid #ccc;
