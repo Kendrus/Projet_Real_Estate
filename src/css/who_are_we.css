@@ -1,0 +1,110 @@
+#who_are_we .card_who_are_we .card_one  .title.one {
+    color:var(--blue-one);
+    letter-spacing: 1px;
+
+}
+#who_are_we .card_who_are_we{
+    padding-top: 50px;
+}
+
+#who_are_we .card_who_are_we  .card_one .title.two h1{
+   
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#who_are_we .card_who_are_we .card_one .title.two {
+    padding-top: 15px;
+}
+#who_are_we .card_who_are_we .card_one .description p{
+    color: var(--text-color-3);
+
+}
+#who_are_we  .card_who_are_we .card_one .description{
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+#who_are_we .card_who_are_we .bloc_one .text_bloc h4{
+    color: #4361EE
+}
+#who_are_we .card_who_are_we .bloc_one .text_bloc p{
+    color:var(--text-color-3);
+}
+#who_are_we .card_who_are_we .bloc_one{
+    border-radius: 30px;
+    width:300px;
+    height:100px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+}
+#who_are_we .card_who_are_we .bloc_two{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:300px;
+    height:100px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+}
+#who_are_we .card_who_are_we .bloc_two .text_bloc h4{
+    color: #4361EE
+}
+#who_are_we .card_who_are_we .bloc_two .text_bloc p{
+    color:var(--text-color-3);
+}
+#who_are_we .card_who_are_we {
+    display: flex;
+    justify-content:space-between;
+    gap: 100px;
+
+}
+#who_are_we .card_who_are_we .card2 
+{
+    display: flex;
+    align-items: start;
+    margin-left: 30px;
+    gap: 30px;
+    /* margin-top: 20px; */
+   
+}
+#who_are_we .card_who_are_we .card2 .card_img{
+    /* margin-top:50px; */
+}
+#who_are_we .card_who_are_we .card2 .card_img img{
+    border-radius: 30px;
+    
+}
+#who_are_we .card_who_are_we .card2 .card_two_img{
+    gap: 15px;
+     margin-bottom:30px;
+}
+#who_are_we .card_who_are_we .card2 .card_two_img img{
+    border-radius: 30px;
+}
+
+
+
+@media (max-width: 426px) {
+#who_are_we .card_who_are_we{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+}
+
+@media (max-width: 768px) {
+    #appBlogs .blogs-card-container {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 992px) {
+
+    /* un peu en dessous de laptop */
+    #appBlogs .blogs-card-container {
+        flex-wrap: wrap;
+    }
+}

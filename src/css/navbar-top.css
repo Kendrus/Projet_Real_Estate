@@ -1,6 +1,10 @@
 #navbar-top .purple_navbar{
-    height: 40px;
+     height: 70px;
     /* width: 100vh; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40PX;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -17,7 +21,8 @@
 
 #navbar-top .purple_navbar .coord {
     display: flex;
-    justify-content: end;
+    justify-content: end; 
+    color: white;
 }
 #navbar-top .purple_navbar .coord .coord_bloc{
     display: flex;
@@ -27,12 +32,12 @@
     display: flex;
     color: white;
     align-items: center;
-    padding-right: 10px;
+    padding: 10px;
 }
-#navbar-top .purple_navbar .coord .cone_email{
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
+#navbar-top .purple_navbar .coord .cone_email {
+    padding-right: 10px;
+    display:flex;
+    align-items:center;
 }
 #navbar-top .purple_navbar .coord .coord_bloc .email{
     display: flex;

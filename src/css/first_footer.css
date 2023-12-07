@@ -19,9 +19,17 @@
     
    
 }
+#first-foot .card_foot .column.one .text_Rezilla{
+    text-align: center; 
+}
 #first-foot .card_foot .column.one .text_Rezilla  svg{
     display: flex;
     align-items: center;
+    background-color:var(--primary-color);
+    border-radius: 9999px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
 }
 /* #first-foot .card_foot .column.one .text_Rezilla  p{
     display: flex;
@@ -61,14 +69,17 @@
        /* flex-wrap: wrap; */
     }
 
-    #first-foot .card_foot .column.four input{
-        padding: 15px;
+    #first-foot .card_foot .column.four .input_footer{
+        padding:25px;
         border: 1px solid #ccc;
         border-radius:5px;
         font-size: 16px;
+        /* padding:5px; */
+        background-color: red;
     }
     label{
         font-weight: bold;
+          padding:5px;
     }
     
 }

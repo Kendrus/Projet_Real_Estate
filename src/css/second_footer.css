@@ -1,0 +1,30 @@
+#second_footer{
+    background-color: black;
+}
+
+
+#second_footer  .second_footer_nav {
+   display: flex;
+   justify-content: space-around;
+}
+
+#second_footer .second_footer_nav .left {
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+#second_footer  .second_footer_nav  .right {
+    color: white;
+    display: flex;
+    justify-content: right;
+ 
+}
+#second_footer  .second_footer_nav  .right p{
+    margin-left: 15px;
+    padding: 10px 0;
+}
+#second_footer  .second_footer_nav  .left p{
+
+    padding: 10px 0;
+}
+

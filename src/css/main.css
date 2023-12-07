@@ -8,6 +8,9 @@
 @import "first_footer.css";
 @import "acceuil.css";
 @import "checkout_our_new.css";
+@import "second_footer.css";
+@import "who_are_we.css";
+@import "real_estate.css";
 /* Partials */
 @import "./partials/colors.css";
 @import "../assets/fonts/fonts.css";
