@@ -6,7 +6,9 @@
 #who_are_we .card_who_are_we{
     padding-top: 50px;
 }
-
+#who_are_we .card_who_are_we  .card_one{
+    grid-column-end: span 6;
+}
 #who_are_we .card_who_are_we  .card_one .title.two h1{
    
     font-size: 36px;
@@ -18,12 +20,13 @@
 }
 #who_are_we .card_who_are_we .card_one .description p{
     color: var(--text-color-3);
-
 }
+
 #who_are_we  .card_who_are_we .card_one .description{
     padding-top:10px;
     padding-bottom: 20px;
 }
+
 #who_are_we .card_who_are_we .bloc_one .text_bloc h4{
     color: #4361EE
 }
@@ -58,16 +61,18 @@
     color:var(--text-color-3);
 }
 #who_are_we .card_who_are_we {
-    display: flex;
-    justify-content:space-between;
-    gap: 100px;
+    /* display: flex;
+    justify-content:space-between; */
+    /* gap: 100px; */
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
 
 }
 #who_are_we .card_who_are_we .card2 
-{
+{   
+    grid-column-end: span  6;
     display: flex;
     align-items: start;
-    margin-left: 30px;
     gap: 30px;
     /* margin-top: 20px; */
    
@@ -75,17 +80,19 @@
 #who_are_we .card_who_are_we .card2 .card_img{
     /* margin-top:50px; */
 }
-#who_are_we .card_who_are_we .card2 .card_img img{
+#who_are_we .card_who_are_we .card2 .card_img .c_img{
     border-radius: 30px;
     
 }
 #who_are_we .card_who_are_we .card2 .card_two_img{
     gap: 15px;
-     margin-bottom:30px;
+    margin-bottom:30px;
 }
 #who_are_we .card_who_are_we .card2 .card_two_img img{
     border-radius: 30px;
+
 }
+
 
 
 

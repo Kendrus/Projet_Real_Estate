@@ -22,6 +22,7 @@
 }
 #blog_testimonial .blog_card_testimonial .box1 .bloc_text {
     padding-top: 15px;
+    padding: 10px;
 }
 
 #blog_testimonial .blog_card_testimonial .box1 .bloc_text p {
@@ -72,6 +73,7 @@
 #blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith{
     display: flex;
      justify-content: space-between; 
+     padding: 5px;
     
 }
 #blog_testimonial .blog_card_testimonial .box2 .bloc_card_BarbaraD_Smith .card_BarbaraD_Smith {

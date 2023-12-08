@@ -1,0 +1,100 @@
+#checkout_our_new .card_img .box.one{
+    grid-column-end: span 4;
+    /* padding-top: 60px; */
+     width: 280px;
+    height: 280px;  
+
+    position: relative; 
+    display: flex;
+    align-items: end;
+    background-image: url("../assets/images/img1.png");
+}
+
+#checkout_our_new .card_img  .box.two{
+    grid-column-end: span 4;
+    /* padding-top: 60px; */
+    width: 280px;
+    height: 280px;
+    background-image: url("../assets/images/img2.png");
+    position: relative;
+    height: 100%;
+}
+#checkout_our_new .card_img  .box.tree{
+    grid-column-end: span 4;
+    /* padding-top: 60px;  */
+    width: 280px;
+    height: 280px; 
+    background-image: url("../assets/images/img3.png");
+    position: relative;
+}
+#checkout_our_new .card_img .box.one .btn_box_one{
+    position: absolute;
+    bottom: 0;
+} 
+#checkout_our_new .card_img .box.one .btn_box_one .btn{
+     background-color:#FFE1E1; 
+  color: red; 
+  padding: 10px 25px; 
+  border: none; 
+  border-radius: 15px;
+  cursor: pointer; 
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+*****************************************************
+
+
+
+
+
+
+
+#checkout_our_new .card_img .box.one{
+    grid-column-end: span 4;
+    /* padding-top: 60px; */
+     width: 280px;
+    height: 280px;  
+
+    position: relative; 
+    display: flex;
+    align-items: end;
+    background-image: url("../assets/images/img1.png");
+}
+#checkout_our_new .card_img .box.one .btn_box_one{
+    
+}
+#checkout_our_new .card_img  .box.two{
+    grid-column-end: span 4;
+    /* padding-top: 60px; */
+    width: 280px;
+    height: 280px;
+    background-image: url("../assets/images/img2.png");
+    position: relative;
+    height: 100%;
+}
+#checkout_our_new .card_img  .box.tree{
+    grid-column-end: span 4;
+    /* padding-top: 60px;  */
+    width: 280px;
+    height: 280px; 
+    background-image: url("../assets/images/img3.png");
+    position: relative;
+}
+#checkout_our_new .card_img .box.one .btn_box_one{
+    position: absolute;
+    bottom: 0;
+} 
+#checkout_our_new .card_img .box.one .btn_box_one .btn{
+     background-color:#FFE1E1; 
+  color: red; 
+  padding: 10px 25px; 
+  border: none; 
+  border-radius: 15px;
+  cursor: pointer; 
+  font-size: 16px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
