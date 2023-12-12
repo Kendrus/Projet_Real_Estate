@@ -1,0 +1,62 @@
+/* #card_logo_entreprise {
+   margin-top: 80px;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+
+} */
+/* ****************************************************** */
+/* #card_logo .logo .card_deco{
+    width:250px;
+    height:80px;
+    border-radius: 30px;
+    background-color:white;
+    text-align: center;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+   
+}
+
+#card_logo .logo .card_deco .logo_one{
+    margin-left: -15px;
+}
+
+#card_logo .logo .card_deco .text{
+    padding: 5px;
+    font-size: 14px;
+}
+#card_logo .logo .card_deco .card.card.two{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+
+#card_logo .logo .card_deco .card.one{
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+   
+  
+} */
+
+/* ********************************************************************* */
+#card_logo_entreprise .approved {
+    margin-top: 60px;
+}
+#card_logo_entreprise .approved p{
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color-4);
+}
+#card_logo_entreprise .partenaire{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#card_logo_entreprise .partenaire .entreprise{
+   mix-blend-mode: luminosity;
+}

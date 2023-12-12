@@ -78,15 +78,23 @@
    
 }
 #who_are_we .card_who_are_we .card2 .card_img{
-    /* margin-top:50px; */
+       padding-top: 57px;
+}
+#who_are_we .card_who_are_we .card2 .card_img img{
+   border-radius: 30px;
+
 }
 #who_are_we .card_who_are_we .card2 .card_img .c_img{
     border-radius: 30px;
     
 }
 #who_are_we .card_who_are_we .card2 .card_two_img{
-    gap: 15px;
-    margin-bottom:30px;
+    gap: 10px;
+   /* padding-bottom: 60px; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
 }
 #who_are_we .card_who_are_we .card2 .card_two_img img{
     border-radius: 30px;

@@ -1,8 +1,8 @@
 #navbar-top .purple_navbar{
-     height: 70px;
+     /* height: 50px; */
     /* width: 100vh; */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
     padding-left: 20px;
     padding-right: 40PX;
     background-color: var(--primary-color);

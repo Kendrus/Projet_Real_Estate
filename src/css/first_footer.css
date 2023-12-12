@@ -103,6 +103,10 @@ color: var(--text-color-2);
 
 #first-foot .card_foot .column.tree .col_tree .tp {
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text-color-2);
 }
 
 #first-foot .card_foot .column.four .col_four .title_p {

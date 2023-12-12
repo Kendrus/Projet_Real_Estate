@@ -11,6 +11,7 @@
 @import "second_footer.css";
 @import "who_are_we.css";
 @import "real_estate.css";
+@import "card_logo.css";
 /* Partials */
 @import "./partials/colors.css";
 @import "../assets/fonts/fonts.css";
