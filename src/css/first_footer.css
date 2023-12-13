@@ -108,6 +108,15 @@ color: var(--text-color-2);
   text-decoration: none;
   color: var(--text-color-2);
 }
+#first-foot .card_foot .column.four .col_tp{
+  margin-bottom:20px;
+}
+
+#first-foot .card_foot .column.four .col_four .tp {
+  color: var(--text-color-2);
+  text-decoration: none;
+ 
+}
 
 #first-foot .card_foot .column.four .col_four .title_p {
   font-weight: 600;

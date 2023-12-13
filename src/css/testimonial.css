@@ -147,7 +147,8 @@
 
     /* tablet */
     #blog_testimonial .blog_card_testimonial{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        width: 50%;
     }
     #blog_testimonial .blog_card_testimonial .box1 .testimonial_holder{
         display: none;

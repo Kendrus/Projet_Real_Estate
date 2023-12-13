@@ -43,6 +43,7 @@
     align-items: center;
     box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
 }
+
 #who_are_we .card_who_are_we .bloc_two{
     margin-top: 20px;
     border-radius: 30px;
@@ -54,6 +55,8 @@
     align-items: center;
     box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
 }
+
+
 #who_are_we .card_who_are_we .bloc_two .text_bloc h4{
     color: #4361EE
 }
@@ -75,8 +78,9 @@
     align-items: start;
     gap: 30px;
     /* margin-top: 20px; */
-   
 }
+
+
 #who_are_we .card_who_are_we .card2 .card_img{
        padding-top: 57px;
 }
@@ -101,20 +105,27 @@
 
 }
 
-
-
-
 @media (max-width: 426px) {
-#who_are_we .card_who_are_we{
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-}
+    #who_are_we .card_who_are_we  .card_one{
+        grid-column-end: 12 !important;
+    }
+
+    #who_are_we .card_who_are_we  .card2{
+        grid-column-end: 12 !important;
+    }
+    
 }
 
 @media (max-width: 768px) {
-    #appBlogs .blogs-card-container {
-        flex-wrap: wrap;
+    #who_are_we .card_who_are_we  .card_one{
+        grid-column-end: 12 !important;
     }
+
+    #who_are_we .card_who_are_we  .card2{
+        grid-column-end: 12 !important;
+    }
+    
+    
 }
 @media (max-width: 992px) {
 
