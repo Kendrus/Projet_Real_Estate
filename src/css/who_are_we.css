@@ -113,10 +113,13 @@
     #who_are_we .card_who_are_we  .card2{
         grid-column-end: 12 !important;
     }
-    
+    #who_are_we .card_who_are_we {
+        gap: 0;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     #who_are_we .card_who_are_we  .card_one{
         grid-column-end: 12 !important;
     }
@@ -124,8 +127,10 @@
     #who_are_we .card_who_are_we  .card2{
         grid-column-end: 12 !important;
     }
-    
-    
+    #who_are_we .card_who_are_we .card2{
+        gap: 0;
+    }
+
 }
 @media (max-width: 992px) {
 
